@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: #F1F1F1;
+        }
+
+        top_header
+        {
+            display: flex;
+            /* justify-content: center; */
+             text-align: center; 
+
+           
+            
+        }
+        top_header>div{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            width: 600px;
+            height: 100px;
+           
+
+        }
+        mid_header{
+            display: flex;
+            text-align:center;
+        }
+        mid_header>.left{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 450px;
+            height: 100px;
+
+        }
+        mid_header>.right{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 120px;
+            height: 100px;
+            margin-left: 20px;
+          
+        }
+        bottom{
+            display: flex;
+            text-align:center;
+
+        }
+        bottom>.b_left{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 120px;
+            height: 100px;
+            /* margin-left: 20px; */
+        }
+        bottom>.b_right{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 450px;
+            height: 100px;
+            margin-left: 20px;
+
+        }
+        @media screen and (max-width: 600px) {
+            mid_header{
+            display: flex;
+            flex-direction: column;
+            text-align:center;
+        }
+        mid_header>.left{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 300px;
+            height: 100px;
+
+        }
+        mid_header>.right{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 300px;
+            margin-left: 0px;
+           
+            height: 100px;
+           
+          
+        }
+           
+       }
+        @media screen and (max-width: 600px) {
+           
+            bottom>.b_left{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 500px;
+            height: 100px;
+            /* margin-left: 20px; */
+        }
+        bottom>.b_right{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 500px;
+            height: 100px;
+            margin-left: 20px;
+
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <top_header>
+        <div>A</div>
+    </top_header>
+    <mid_header>
+        <div class="left">B</div>
+        <div class="right">E</div>
+    </mid_header>
+    <bottom>
+        <div class="b_left">C</div>
+        <div class="b_right">D</div>
+
+    </bottom>
+</header>
+    
+</body>
+</html>
